@@ -1,0 +1,32 @@
+#flash-card {
+    display: grid;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+#ui-wrapper {
+    height: 100%;
+    z-index: 1;
+}
+
+#ui-wrapper #card-top {
+    height: 25%;
+}
+
+#ui-wrapper #card-middle {
+    height: 50%;
+}
+
+#ui-wrapper #card-bottom {
+    height: 25%;
+}
+
+#card-text {
+    margin: auto;
+}
+
+#ui-wrapper, #card-text {
+    grid-area: 1 / 1;
+}

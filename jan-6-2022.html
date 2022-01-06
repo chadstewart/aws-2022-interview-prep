@@ -1,0 +1,108 @@
+<!--
+AWS Behavioral Questions:
+Tell me about a time when you received negative feedback from your manager. How did you respond?
+
+Story: When I had a wordpress project to build a freelancer platform with a specific wordpress package.
+Negative feedback comes from not being diligent enough in pursuing the assessment.
+
+Story telling rating: I'm not sure if I told the story well or if this was a good selection for this particular question.
+
+Tell me about a time when you missed an obvious solution to a problem
+Story: Don't have a good story for this
+
+Tell me about a time you had to deal with ambiguity
+Story: Had to update NCB project to comply with financial regulations and there wasn't any other Front-End Engineers to help.
+Worked through the code on my own, was able to make updates though was unable to deliver in the sprint because of things I didn't know.
+Took 2 sprints to complete and was able to make a more robust solution when completed.
+
+Front-End Coding Question:
+Build a 1 - 5 star rating system.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #rating {
+            display: flex;
+            width: 300px;
+            border: 1px solid black;
+        }
+
+        #ui-wrapper {
+            margin-left: 5px;
+        }
+
+        .active {
+            font-weight: bold;
+            color: red;
+        }
+
+        #rating-wrapper {
+            display: flex;
+            margin-left: 20px;
+        }
+
+        #rating-label {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="rating">
+        <div id="ui-wrapper">
+            <button class="star-rating" data-value="1">*</button>
+            <button class="star-rating" data-value="2">*</button>
+            <button class="star-rating" data-value="3">*</button>
+            <button class="star-rating" data-value="4">*</button>
+            <button class="star-rating" data-value="5">*</button>
+        </div>
+        <div id="rating-wrapper">
+            <div id="rating-label">Rating:</div>
+            <div id="rating-display">0</div>
+        </div>
+    </div>
+    
+    <script>
+        let rating = 0;
+        let ratingCount = 0;
+
+        function handleRating(buttonElement) {
+            const buttonRatingValue = +buttonElement.getAttribute("data-value");
+            rating += buttonRatingValue;
+            ratingCount++;
+
+            setRating();
+            setRatingPercentage();
+        }
+
+        function setRating() {
+            const currentRating = Math.floor(rating / (ratingCount * 5) * 5);
+
+            buttons = document.querySelectorAll("#ui-wrapper button")
+            if(ratingCount > 0) buttons.forEach(button => button.classList.remove("active"));
+            for(let i = 0; i < currentRating; i++) {
+                buttons[i].classList.add("active");
+            }
+        }
+        
+        function setRatingPercentage() {
+            const currentRatingPercentage = ((rating / (ratingCount * 5)) * 5).toFixed(2);
+
+            document.querySelector("#rating-display").textContent = currentRatingPercentage;
+        }
+
+        function setUp() {
+            const buttonList = [...document.querySelectorAll("#ui-wrapper button")];
+            buttonList.map(button => button.addEventListener('click', () => handleRating(button)));
+        }
+
+        setUp();
+    </script>
+</body>
+</html>

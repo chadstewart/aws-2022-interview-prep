@@ -1,0 +1,2 @@
+Vanilla JS/DOM understanding
+They asked me to design a flash card style game, where there is a stack of cards with questions on it. When the card on top of the stack is clicked, it shows the other side, where the answer is written. The card is moved to a separate pile when being clicked.
