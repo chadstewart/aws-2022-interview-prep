@@ -1,0 +1,107 @@
+What to expect as Amazon Interview Questions? Here’s what the 14 Amazon Leadership Principles tell us.
+
+Amazon Interview questions via Amazon Leadership Principles
+“It would be impossible to produce results in an environment as dynamic as the Internet without extraordinary people… Setting the bar high in our approach to hiring has been, and will continue to be, the single most important element of Amazon.com’s success.”
+– Jeff Bezos’ letter to shareholders in 1998, just four years after Amazon was founded already explains why guarding the leadership principles is so critical for Amazon
+The above statement perfectly captures Amazon’s hiring philosophy in a nutshell. Amazon does not hire ordinary. It hires people who ‘Raise the Bar’. The company believes that every new employee should increase the average level of productivity on whichever team they join, ensuring that the company’s standards get higher and higher as time goes on. This implies that every new person hired through the Amazon interview process should be smarter/better/more qualified than 50% of the people currently in the role.
+To ensure that this statement holds true, Amazon trains a selected few of its employees to be ‘Bar Raisers’ in the Amazon interview process. There is no separate thing as ‘the bar raiser interview questions’. Essentially, these Amazon employees take on a second unpaid job as candidate evaluators. Apart from taking one of the interviews, the primary job of a Bar Raiser is to ensure that for each position and level, every candidate is being interviewed across a shared set of competencies i.e. the 14 Amazon leadership principles (more about them in a while). The Bar Raisers also help discover hidden hiring motives, like a severe near-term need, and force interviewers to reconsider their feedback in different contexts. Bar Raisers are known not to jump from one question to another, but savour hearing every relevant detail of your story in the Amazon interview process.
+Now let’s come to the Amazon interview process.
+The Amazon Interview Experience usually comprises about four to six interviews, wherein at least one interviewer is a bar raiser. Each interviewer covers a few of the 14 Amazon leadership principles so that in its entirety, the candidate is judged on each principle during the process. In addition, behavioural interview questions are asked to check if the candidate has manifested these 14 amazon leadership principles in the past. As stated earlier, these are the most important filters that Amazon uses to select candidates in the interview process. Amazon strongly believes that with the expansion rate of the company, the only way they can keep the company culture alive is by ferociously guarding their 14 leadership principles. Therefore, the candidates are expected to fulfil ‘minimum expectation’ on all 14 Amazon leadership principles and be ‘outstanding’ on at least one of them. If even one of the Bar Raisers has an objection to Amazon hiring the candidate, they can simply veto the application, and the interview process ends there.
+“Our Leadership Principles aren’t just a pretty inspirational wall hanging. These Principles work hard, just like we do. Amazonians use them every day, whether they’re discussing ideas for new projects, deciding on the best solution for a customer’s problem, or interviewing candidates. It’s just one of the things that makes Amazon peculiar.”
+Amazon 14 Leadership Principles:
+1. Customer Obsession
+2. Ownership
+3. Invent and Simplify
+4. Are Right, A Lot
+5. Learn and Be Curious
+6. Hire and Develop The Best
+7. Insist on Highest Standards
+8. Think Big
+9. Bias for Action
+10. Frugality
+11. Earn Trust
+12. Dive Deep
+13. Have Backbone; Disagree and Commit
+14. Deliver Results
+Having interviewed Amazon recruiters and candidates, we have collated a brief list of interview questions that are used in Amazon interviews to judge candidates on each of these 14 leadership principles. Please note that the interview questions below are by no means exhaustive and are just indicative of the space that your Amazon interview questions would be penetrating into. You can use this list of interview questions to work on your laundry list of experiences and pick out your star stories: the stories that best manifest the Amazon leadership principles you want to highlight. Understand that every part of the Amazon Interview process has been created to systematically outline leadership traits, understand their importance to you and the degree of applicability of these 14 Amazon Leadership principles in your life experiences. The candidates applying for AWS roles should also make note that these 14 principles are also the AWS leadership principles, and it would be critical for their candidature to pay heed to these.
+Choose a few of these leadership principles that mean the most to you and focus on them in an obvious way. Speak in them. Speak to them. Mention them in your stories.
+1. Customer Obsession
+Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
+Amazon Interview Questions on Customer Obsession
+Who was your most challenging customer?
+Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. So how do you go about prioritizing your customers’ needs?
+Tell the story of the last time you had to apologize to someone.
+2. Ownership
+Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company beyond just their own team. They never say,That’s not my job
+Amazon Interview Questions on Ownership
+Tell me about a time when you had to leave a task unfinished.
+Tell me about a time when you had to work on a project with unclear responsibilities.
+3. Invent and Simplify
+Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here”. As we do new things, we accept that we may be misunderstood for long periods of time
+Amazon Interview Questions on Invent and Simplify
+Tell me about a time when you gave a simple solution to a complex problem.
+Tell me about a time when you invented something.
+An excellent example of this is the Amazon flywheel.
+Amazon Flywheel is a beautiful demonstration of how a business model can be constructed to be a self-perpetuating machine. You feed any part of the Amazon flywheel and the entire business model gets benefited. It is a simple but brilliant example of Invent & Simplify.
+
+4. Are Right, A Lot
+Leaders are right, a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
+Amazon Interview Questions on Are Right, A Lot
+Tell me about a time when you were wrong
+Tell me about a time when you had to work with incomplete data or information.
+5. Learn and Be Curious
+Leaders are never done learning and consistently seek to improve themselves. They are curious about new possibilities and act to explore them.
+Amazon Interview Questions on Learn and Be Curious
+Tell me about a time when you influenced a change by only asking questions.
+Tell me about a time when you solved a problem through just superior knowledge or observation.
+6. Hire and Develop The Best
+Leaders are responsible for raising the performance bar with every hire and promotion. They recognize exceptional talent and will move them throughout the organization. Leaders develop leaders and take their role in coaching others seriously. We work on behalf of our people to invent mechanisms for development like Career Choice.
+Amazon Interview Questions on Hire and Develop The Best
+Tell me about a time when you mentored someone
+Tell me about a time when you made a wrong hire. When did you figure it out, and what did you do?
+7. Insist on the Highest Standards
+Leaders have relentlessly high standards – many people may think these standards are unreasonably high. However, leaders are continually raising the bar and driving their teams to deliver high-quality products, services, and processes. In addition, leaders ensure that defects do not get sent down the line and that problems are fixed, so they stay fixed.
+Amazon Interview Questions on Insist on the Highest Standards
+Tell me about a time when you couldn’t meet your own expectations on a project.
+Tell me about a time when a team member didn’t meet your expectations on a project.
+8. Think Big
+Thinking small is a self-fulfilling prophecy. Instead, leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
+Amazon Interview Questions on Think Big
+Tell me about your proudest professional achievement
+Tell me about a time when you went way beyond the scope of the project and delivered.
+9. Bias for Action
+Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk-taking.
+Amazon Interview Questions on Bias for Action
+Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it
+Tell me about a time when you took a calculated risk.
+Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+10. Frugality
+Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size or fixed expense.
+Amazon Interview Questions on Frugality
+Tell me about a time when you had to work with limited time or resources.
+11. Earn Trust
+Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odour smells of perfume. Instead, they benchmark themselves and their teams against the best.
+Amazon Interview Questions on Earn Trust
+What would you do if you found out that your closest friend at work was stealing?
+Tell me about a time when you had to tell someone a harsh truth.
+12. Dive Deep
+Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
+Amazon Interview Questions on Dive Deep
+Give me two examples of when you did more than what was required in any job experience.
+Tell me about something that you learnt recently in your role.
+13. Have Backbone; Disagree and Commit
+Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
+Amazon Interview Questions on Have Backbone; Disagree and Commit
+Tell me about a time when you did not accept the status quo
+Tell me about an unpopular decision of yours.
+Tell me about a time when you had to step up and disagree with a team member's approach.
+If your direct manager was instructing you to do something you disagreed with, how would you handle it?
+14. Deliver Results
+Leaders focus on the crucial inputs for their business and deliver them with the right quality and timely fashion. Despite setbacks, they rise to the occasion and never settle.
+Amazon Interview Questions on Deliver Results
+By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
+What is the most challenging situation you have ever faced in your life? How did you handle it?
+Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
+Our parting advice is that you not try to game the Amazon interview process, i.e. tell them what you think they want to hear. Do not invent stories to fit the image you want to showcase. That attitude, more often than not, makes the candidate seem inconsistent or ‘unreal’. But most importantly, by doing so, you lose out on a very critical opportunity: to showcase the real you. Every story that you’d ever need is already there in your laundry list. What is required is to understand yourself better and craft these stories such that it brings out your leadership principles and achievements.
+We wish you all the best for your Amazon interview process!
