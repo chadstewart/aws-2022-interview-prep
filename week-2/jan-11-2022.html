@@ -1,0 +1,142 @@
+<!-- 
+
+Work on:
+Giving more technical details
+Focusing on more concrete details
+
+AWS LP Behavioral Questions
+
+1. Tell me about a time you failed and what you learned from it
+
+Story told: Talked about a time where a project failed in college, that I ended up doing some stuff but it didn't go well because we were disorganized from the start.
+
+Notes: Didn't talk about the technologies that ended up being used.
+
+Potential story: How a project failed to launch because alternatives weren't proposed
+
+2. Tell me about a time you had a conflict at work.
+
+Story told: Talked about the time there was a performance issue in the app at NCB and the back-end engineer wanted to solve it in the back=end. Felt it was a front=end issue but after talking about it, we decided to have the problem sovled in the back-end.
+
+Notes: Might not be the best story to talk about conflict. Didn't talk about the performance issue and why it was an issue.
+
+Coding Challenge
+
+Build a comments section
+
+1. Describe a comment
+2. Design adding a comment
+3. Design a comment card
+4. How do we deal with replies?
+5. Design how the entire component looks
+6. Describe logic for component
+7. Build logic
+
+Describe a comment:
+
+Name of commentor:
+Date posted:
+Comment:
+Option to reply:
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #comment-component-container {
+            width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #add-comment {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #add-comment label {
+            font-weight: bold;
+            margin: 5px 0px;
+        }
+        
+        #submit-comment {
+            width: 100px;
+            margin: 5px 0px;
+        }
+        
+        #single-comment-container,
+        #comment-reply-container {
+            border: 1px solid black;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        #single-comment-container > div,
+        #comment-reply-container > div {
+            margin-bottom: 30px;
+        }
+
+        #reply-container {
+            margin-left: 40px;
+        }
+
+        #single-comment-container > button {
+            margin-bottom: 30px;
+        }
+
+        #comment-data {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #comment-data div {
+            margin-right: 5px;
+        }
+        </style>
+</head>
+<body>
+    <div id="comment-component-container">
+        <div id="comment-entry-container">
+            <form id="add-comment">
+                <label for="name-entry">Add your name:</label>
+                <input type="text" id="name" placeholder="Your name">
+                <label for="comment-entry">Add your comment</label>
+                <textarea id="comment" placeholder="Place comment here..." rows="6" cols="50"></textarea>
+                <input type="submit" id="submit-comment" value="Add comment">
+            </form>
+        </div>
+
+        <div id="comment-display-container">
+            
+            <div id="single-comment-container">
+                <div id="comment-data">
+                    <div id="username">Test name</div>
+                    <div id="date-posted">Test date</div>
+                </div>
+                <div id="comment-text">Test comment</div>
+                <button id="comment-reply-button">Reply to comment</button>
+                
+                <div id="reply-container">
+                    <label for="comment-replies">Replies:</label>
+                    <div id="comment-reply-container">
+                        <div id="comment-data">
+                            <div id="username">Test name</div>
+                            <div id="date-posted">Test date</div>
+                        </div>
+                        <div id="comment-text">Test comment</div>
+                        <button id="comment-reply-button">Reply to comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

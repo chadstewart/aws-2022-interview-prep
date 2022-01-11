@@ -53,3 +53,24 @@ If your direct manager was instructing you to do something you disagreed with, h
 By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
 What is the most challenging situation you have ever faced in your life? How did you handle it?
 Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
+
+Software Development Engineer Specific Leadership Principle Questions:
+
+When did you take a risk, make a mistake or fail? How did you respond?
+Tell me about a time you failed. How did you deal with the situation?
+Tell me about a time you had a conflict at work.
+Tell me about a time when you took the lead on a difficult project
+Tell me about a time when you received negative feedback from your manager. How did you respond?
+How would you handle a project that is expected to be behind schedule
+Describe a time when you received criticism and how you handled it
+Tell me about a time you recovered from a difficult situation
+Describe the most challenging project you've worked on so far
+What is the most difficult decision you ever took in software
+Tell me about a time you had to make a decision under pressure to meet a deadline
+Tell me about a time when you had to choose between technologies for a project
+Tell me about a time when you had to make a judgement call without having time to refer to a manager/supervisor
+Give me an example where you strongly held an opinion and you were the outlier
+What is the most significant impact of your work inside a team
+What is the best invention or idea you had in the past two years?
+Tell me about a time you exceeded your expectations
+Describe a project that you are particularly proud of. How did it impact your company? What challenges did you encounter and how did you solve them?

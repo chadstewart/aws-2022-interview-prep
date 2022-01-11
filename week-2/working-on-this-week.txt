@@ -1,0 +1,5 @@
+What to work on:
+
+Giving more technical details
+Focusing on more concrete details
+Add make references to Amazon Leadership Principles in stories
