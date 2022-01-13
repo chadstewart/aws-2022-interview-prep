@@ -1,5 +1,6 @@
 What to work on:
 
+Choose a story based on the actions you did and the results it achieved
 Giving more technical details
 Focusing on more concrete details
 Add make references to Amazon Leadership Principles in stories
