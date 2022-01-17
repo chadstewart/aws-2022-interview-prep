@@ -1,0 +1,132 @@
+<!--
+    
+AWS LP Behavioral Questions:
+
+1. By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
+
+Story Told: Told story about working at Ingenuity and handling several tasks there.
+
+Critique:
+
+
+2. What is the most difficult decision you ever took in software
+
+Story Told: Told the time of when I joined NCB from where I was working at the time. Talked about not having the skills they needed but took the opportunity anyway and how it benefitted me.
+
+Critique:
+
+
+Basic Comp. Sci./Front-End Knowledge Questions:
+
+
+What is a Callback: Being able to pass a function as a variable and call it in the function. In essence, you can call a function that isn't defined or written yet.
+What are Closures: I don't know.
+What happens when you enter an address into a browser: Sends a request to the address that is written (url: which is english substitute for ip addresses). The server searches for the resouce you asked for, if it finds it, it will send it as a response to your request.
+
+
+Coding Challenge:
+
+Build a button that brings up a modal. Make sure to be able to close the modal once it's brought up.
+
+What is a Modal?
+
+1. HTML element that appears in-front of the current page.
+2. HTML element that is detached from the rest of the design of the page
+3. Tends to float in the middle of the page.
+4. Is written with a blurb like structure.
+5. Keeps you from clicking on the rest of the page.
+
+Procedure:
+
+1. Make button bring up a div that covers entire page and keeps users from clicking on page elements
+   - Create test div, make invisible initially
+   - Create function to make test div visible
+2. Make div that is center of screen.
+   - Create modal div with button
+   - Style modal div so that it appears in the center of the screen
+3. Make button in that div that removes the modal and the div.
+   - Create function to make modal div turn off button
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body,
+      #btn-container {
+        z-index: 0;
+      }
+
+      #btn-container {
+        width: 200px;
+      }
+
+      #modal-bg {
+        background: #000;
+        opacity: 70%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+      }
+
+      #modal-container {
+        width: 500px;
+        height: 500px;
+        left: 35%;
+        top: 25%;
+        position: absolute;
+        background: #fff;
+        z-index: 20;
+      }
+
+      #modal-content {
+        margin: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="modal-bg" style="display: none"></div>
+
+    <div id="modal-container" style="display: none">
+      <div id="modal-content">
+        This is a modal!
+        <button id="modal-close-btn">Close Modal</button>
+      </div>
+    </div>
+
+    <div id="btn-container">
+      <button id="modal-open-btn">Open Modal</button>
+    </div>
+
+    <script>
+      const openModalBtn = document.querySelector("#modal-open-btn");
+      const closeModalBtn = document.querySelector("#modal-close-btn");
+
+      function openModal() {
+        const modalBg = document.querySelector("#modal-bg");
+        const modalContainer = document.querySelector("#modal-container");
+
+        modalBg.removeAttribute("style");
+        modalContainer.removeAttribute("style");
+      }
+
+      function closeModal() {
+        const modalBg = document.querySelector("#modal-bg");
+        const modalContainer = document.querySelector("#modal-container");
+
+        modalBg.style.display = "none";
+        modalContainer.style.display = "none";
+      }
+
+      openModalBtn.addEventListener("click", openModal);
+      closeModalBtn.addEventListener("click", closeModal);
+    </script>
+  </body>
+</html>
