@@ -40,20 +40,17 @@ recreatedMapFunction([1,2], num => num + 1) = [2,3];
 recreatedMapFunction([1,2], num => throw new error) = There was an error in the execution of the callback function: ???;
 recreatedMapFunction([], num => num + 1) = [];
 recreatedMapFunction(["ball", num => num + 1) = "Please call this function with an array";
-recreatedMapFunction([1,2], num => "ball") = "Please call this function with a function variable";
-recreatedMapFunction([1,2], num => { const blah = "this is a ball"}) = "Please call this function with a function variable that returns an output that isn't null";
+recreatedMapFunction([1,2], "ball") = "Please call this function with a function variable";
+recreatedMapFunction([1,2], num => { const blah = "this is a ball" }) = "Please call this function with a function variable that returns an output that isn't null";
 
 */
 
 function recreatedMapFunction (passedArray, passedCallback) {
-    try {
-        testVariableToBeArray(passedArray);
-    } catch (err) {
-        throw "Please call this function with an array.";
-    }
+    const isArray = testVariableToBeArray(passedArray);
+    if(!isArray) throw "Please call this function with an array.";
 
-    const isCallbackAFunctionWithParams = testVariableToBeFunction(passedCallback);
-    if(!isCallbackAFunctionWithParams) throw "Please call this function with a function variable";
+    const isCallbackAFunction = testVariableToBeFunction(passedCallback);
+    if(!isCallbackAFunction) throw "Please call this function with a function variable";
 
     const outputArray = [];
 
@@ -64,12 +61,11 @@ function recreatedMapFunction (passedArray, passedCallback) {
         try{
             outputOfCallback = passedCallback(currentElement);
         } catch (err) {
-            err = `There was an error in the execution of the callback function: ${err}`;
-            throw err;
+            throw `There was an error in the execution of the callback function: ${err}`;
         }
 
-        const isReturnValueNotNull = testIfFunctionReturnsOutput(outputOfCallback);
-        if(i === 0 && isReturnValueNotNull) throw "Please call this function with a function variable that returns an output that isn't null";
+        const isReturnValueValid = testIfFunctionReturnsValidOutput(outputOfCallback);
+        if(i === 0 && !isReturnValueValid) throw "Please call this function with a function variable that returns an output that isn't null";
 
         outputArray.push(outputOfCallback);
     }
@@ -80,13 +76,15 @@ function recreatedMapFunction (passedArray, passedCallback) {
 //Testing utility functions
 
 function testVariableToBeArray (testVariable) {
-    return testVariable.length;
+    return Array.isArray(testVariable);
 }
 
 function testVariableToBeFunction (testVariable) {
     return typeof testVariable === "function";
 }
 
-function testIfFunctionReturnsOutput (testVariable) {
-    return testVariable === null;
+function testIfFunctionReturnsValidOutput (testVariable) {
+    return testVariable !== null;
 }
+
+console.log(recreatedMapFunction([1,2], num => num + 1))

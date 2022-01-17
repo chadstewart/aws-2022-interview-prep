@@ -1,0 +1,93 @@
+<!--
+    
+AWS LP Behavioral Questions:
+
+1. Tell me about your proudest professional achievement
+
+Story Told: Talked about joining NCB without React, Redux skills, upskilling and taking on important tasks for the application.
+
+Critique:
+
+
+2. Tell me about a time you had to make a decision under pressure to meet a deadline
+
+Story Told: Talked about a freelance project where we were building a proof of concept for a Home-owner's Association app. Built web front-end when mobile app might not have been delivered.
+
+Critique:
+
+
+Coding Challenge:
+
+Implement tic tac toe
+
+[x][o][x]
+[x][x][o]
+[o][x][o]
+
+x x x
+
+x
+x
+x
+
+x
+ x
+  x
+
+   x
+  x
+ x
+
+What do we need:
+
+- 3 x 3 grid
+- Handle players making moves
+- Ability to handle two players
+- Ability to determine winner or draw
+
+Procedure:
+1. Grid:
+   Write a function that builds our Grid:
+   - Build single cell of grid in html
+   - Manually make the grid
+   - Label each cell
+   - Add event listener to each cell
+
+2. Determine Winner or Draw:
+   Write a function that checks if there's a winning pattern:
+   - Determine all patterns in Tic Tac Toe x
+   - Create object where the pattern is expressed
+   - Write function to go through pattern
+   - Count number of moves
+   - If count is 9 and no winner is found, declare draw
+
+3. Handle making moves:
+   Write move function:
+   - Pass character to function
+   - Add character to cell
+   - Run Determine Winner function to see if there's a winner
+   - Only run Determine Winner function on the 5th turn onward
+
+4. Handle changing players:
+   Write function that switches players:
+   - Function starts with player 'x';
+   - Function changes players from 'x' to 'o' and vice versa based on the current player
+
+Misc.:
+- Global variable to determine player
+- Global variable to determine num. of moves
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
