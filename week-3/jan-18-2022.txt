@@ -1,0 +1,28 @@
+AWS LP Behavorial Questions
+
+1. Tell me about something that you learnt recently in your role.
+
+Story Told: Told the story of the growth of TechIsHiring. Moving from the intention of being an application that people use to more of a community they are involved in. And all the stuff to build and maintain that community.
+
+Critique:
+
+
+2. What is the most significant impact of your work inside a team
+
+Story Told: Told the story when I was tasked to learn how to quickly spin up ELK stack servers to do reporting which in turn led to the company gaining a brand-new revenue stream.
+
+Critique:
+
+
+JavaScript/Comp. Sci. Trivia Questions:
+
+JavaScript Specific:
+What is the use of isNaN function? Checks is argument against typeof "number"
+How to detect the operating system on the client machine? In order to detect the operating system on the client machine, the navigator. Platform string (property) should be used.
+
+Front-End Speific:
+What resources do you use to learn about the latest in front end development and design? YouTube, various new outlets: Dev.to, newsletters, etc., and being active on Tech Twitter.
+How do you ensure that your website design or web application is accessible and user-friendly? Use tools that will let you know the accessibility of your application and give you advice on what to change. Hire an Accessbility Engineer. Get a design in front of users and let them dictate how user-friendly the design is and then make changes accordingly.
+
+
+*No Coding Challenge Today*
